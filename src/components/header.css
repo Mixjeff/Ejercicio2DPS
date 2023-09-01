@@ -1,0 +1,30 @@
+.carrito {
+    width: 100%;
+    background-color: #333; /* Puedes ajustar el color de fondo según tus preferencias */
+    color: white; /* Puedes ajustar el color del texto según tus preferencias */
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1000; /* Asegura que el encabezado esté por encima de otros elementos */
+  }
+  .banner-container {
+    background-color: #333; /* Cambia esto al color de fondo que desees */
+    color: white; /* Color del texto del banner */
+    padding: 10px; /* Espaciado interno del banner */
+    border-radius: 5px; /* Bordes redondeados para el banner */
+    text-align: center; /* Alineación del contenido en el centro */
+    display: flex; /* Mostrar contenido en línea */
+    align-items: center; /* Centrar verticalmente el contenido */
+    justify-content: space-between; /* Espacio uniforme entre elementos */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  }
+  
+  
+  .banner-title {
+    margin: 0; /* Eliminar el margen del título */
+  }
+
+    
+  
+  /* Otros estilos para los elementos dentro del banner-container */
+  
