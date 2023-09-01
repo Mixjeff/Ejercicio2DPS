@@ -25,7 +25,7 @@ export const Header = ({
   return (
     <header style={{ width: "800px" }}>
       <div className="banner-container">
-      <h1 className="banner-title">Jaguar Sport</h1>
+      <h1 className="banner-title">DON BOSCO'S SHOP</h1>
       <div className='"container-icon'>
         <div className="container-cart-icon" onClick={() => setActive(!active)}>
           <img
@@ -34,7 +34,7 @@ export const Header = ({
             className="icon-cart"
           />
           <div className="count-products">
-            <span id="contador-productos">0</span>
+            {/* <span id="contador-productos">0</span> */}
           </div>
         </div>
       </div>
